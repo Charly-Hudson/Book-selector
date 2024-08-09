@@ -1,0 +1,21 @@
+:root{
+    --primary: #fff;
+    --primaryDark: #161e33;
+    --secondary: #58ce6c;
+    --secondaryDark: #421a1a;
+
+    /* Book Vars */
+    --book-1: url('/assets/img/book-1.webp');
+    --book-2: url('/assets/img/book-2.webp');
+    --book-3: url('/assets/img/book-3.webp');
+    --bookMark: url('/assets/img/bookMark.webp');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--primaryDark);
+}
