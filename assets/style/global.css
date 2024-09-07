@@ -4,11 +4,18 @@
     --secondary: #58ce6c;
     --secondaryDark: #421a1a;
 
+
+
     /* Book Vars */
-    --book-1: url('/assets/img/book-1.webp');
-    --book-2: url('/assets/img/book-2.webp');
-    --book-3: url('/assets/img/book-3.webp');
-    --bookMark: url('/assets/img/bookMark.webp');
+	--book-1: url('/test.1/src/assets/image/webp/book-1.webp');
+	--book-2: url('/test.1/src/assets/image/webp/book-2.webp');
+	--book-3: url('/test.1/src/assets/image/webp/book-3.webp');
+	--bookMark: url('/test.1/src/assets/image/webp/bookMark.webp');
+	--bookWidth: 180px;
+	--bookHeight: 225px;
+	--bookSpacing: 70px;
+	--bookA: calc(var(--bookHeight) + var(--bookSpacing) - 15px);
+	--bookAll: calc(var(var(--bookSpacing)) + var(var(--bookHeight)) + var() + var())
 }
 
 *{
@@ -18,4 +25,5 @@
 
 body{
     background-color: var(--primaryDark);
+    text-align: center;
 }
